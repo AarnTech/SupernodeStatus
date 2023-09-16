@@ -1,0 +1,113 @@
+/* Provide sufficient contrast against white background */
+body {
+    background-color: #282c34;
+}
+
+a {
+    color: #0366d6;
+}
+
+code {
+    color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.App-header {
+    /*background-color: #282c34;*/
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    /* font-size: calc(10px + 2vmin);*/
+    color: lightgrey;
+    font-family: Monospace;
+}
+
+.tablediv {
+    /*display: table;*/
+    width: 100%;
+    min-width: 560px;
+    max-width: 1550px;
+}
+
+td, th {
+    border: 2px solid grey;
+    font-size: 12px;
+    font-family: Monospace;
+    padding: 3px;
+}
+
+table {
+    border-collapse: collapse;
+    /*width: 100%;*/
+}
+
+td.zero {
+    text-align: center;
+    font-size: 20px;
+}
+
+th.one, td.one {
+    min-width: 31px;
+    text-align: center;
+}
+
+th.two {
+    width: 60%;
+    min-width: 105px;
+    text-align: center;
+}
+
+th.three {
+    width: 40%;
+    min-width: 105px;
+    text-align: center;
+}
+
+th.four {
+    min-width: 105px;
+    text-align: center;
+}
+
+.first {
+    width: 60%;
+    min-width: 105px;
+}
+
+.second {
+    width: 40%;
+    min-width: 105px;
+}
+
+.third {
+    min-width: 105px;
+
+}
+
+.ellipsis {
+    position: relative;
+}
+
+.ellipsis:before {
+    content: '&nbsp;';
+    visibility: hidden;
+}
+
+    .ellipsis span {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
