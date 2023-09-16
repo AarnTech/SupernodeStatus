@@ -26,7 +26,7 @@ import './custom.css';
 //import { Button } from '@material-ui/core';
 //{ Button } from 'semantic-ui-react';
 
-// Aarne Andreas�n //
+// Aarne Andreasen //
 export default class Supernode extends React.Component {
     constructor(props) {
         super(props);
