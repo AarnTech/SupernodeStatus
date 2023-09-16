@@ -1,6 +1,6 @@
 {
   "name": "supernode-status",
-  "homepage": "http://aarntech.github.io/supernodestatus",
+  "homepage": "https://aarntech.github.io/supernodestatus",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://wan5.servebeer.com:18690",
