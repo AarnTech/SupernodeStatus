@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/supernodestatus/static/css/main.d1fab58d.css",
+    "main.js": "/supernodestatus/static/js/main.f986bbb2.js",
+    "static/js/787.424482d0.chunk.js": "/supernodestatus/static/js/787.424482d0.chunk.js",
+    "index.html": "/supernodestatus/index.html",
+    "main.d1fab58d.css.map": "/supernodestatus/static/css/main.d1fab58d.css.map",
+    "main.f986bbb2.js.map": "/supernodestatus/static/js/main.f986bbb2.js.map",
+    "787.424482d0.chunk.js.map": "/supernodestatus/static/js/787.424482d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1fab58d.css",
+    "static/js/main.f986bbb2.js"
+  ]
+}
